@@ -1,0 +1,64 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: Helvetica Neue, Helvetica;
+    font-weight: lighter;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: .3;
+    mix-blend-mode: overlay;
+}
+
+#content {
+    position: relative;
+    z-index: 2;
+    font-weight: lighter;
+}
+
+#content a {
+    display: block;
+    font-size: 1.3rem;
+    border: 2px solid #fff;
+    border-radius: 100px;
+    padding: 15px;
+    text-align: center;
+    transition: .5s;
+    margin-top: 30px;
+
+}
+
+#content a:hover {
+    background: #fff;
+    color: black;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 200;
+}
